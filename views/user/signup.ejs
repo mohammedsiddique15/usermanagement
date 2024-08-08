@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/user/signup" method="post" enctype="multipart/form-data">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+        <label>Phone Number:</label>
+        <input type="text" name="phoneNumber" required><br>
+        <label>Password:</label>
+        <input type="password" name="password" required><br>
+        <label>Profile Image:</label>
+        <input type="file" name="image"><br>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
